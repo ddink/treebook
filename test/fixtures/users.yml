@@ -3,3 +3,9 @@ david:
   last_name: 'Dinkins'
   email: 'frank@frank.com'
   profile_name: 'Frank'
+
+jamie: 
+  first_name: 'Jamie'
+  last_name: 'Kennedy'
+  email: 'j-ken_1@gmail.com'
+  profile_name: 'j-ken_1'
