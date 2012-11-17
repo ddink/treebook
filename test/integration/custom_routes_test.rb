@@ -23,7 +23,7 @@ class CustomRoutesTest < ActionDispatch::IntegrationTest
 	end
 
 	test "that a profile posts a new status correctly" do
-		get '/statuses/new'
+		get '/new'
 		assert_response :redirect
 		assert_redirected_to '/users/sign_in'
 	end

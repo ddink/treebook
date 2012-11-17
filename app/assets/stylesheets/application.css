@@ -19,3 +19,7 @@ body {
 .alert {
 	margin-top: 20px;
 }
+
+#new-status {
+	margin-bottom: 30px;
+}

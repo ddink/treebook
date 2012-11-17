@@ -7,7 +7,7 @@ Treebook::Application.routes.draw do
     get "register", :to => "devise/registrations#new", as: :register
     get "login", :to => "devise/sessions#new", as: :login
     get "logout", :to => "devise/sessions#destroy", as: :logout
-    get "new", :to => "statuses#new", as: :new
+    
   end
 
   resources :statuses
